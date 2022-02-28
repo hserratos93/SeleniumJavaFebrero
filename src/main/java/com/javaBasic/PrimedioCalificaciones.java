@@ -14,6 +14,7 @@ public class PrimedioCalificaciones {
 	
 	public void calcularPromedio () {
 		
+		//IF, IF ELSE con &&
 		double resultado = (calif+calif2+calif3+calif4)/4;
 		Reporter.log("El promedio es: "+ resultado, true);
 		
@@ -27,6 +28,13 @@ public class PrimedioCalificaciones {
 			Reporter.log("La califiación ingresada está fuera de rango: "+resultado, true);
 		}
 		
+		//IF, IF ELSE con ||
+		
+		if (resultado >=70 || resultado <100) {
+			Reporter.log("OR Estás aprobado", true);
+		
+	}
+	
 	}
 	
 }//End class
