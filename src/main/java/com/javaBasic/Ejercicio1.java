@@ -6,7 +6,7 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class Ejercicio1 {
-	
+	//	1.Programa que lea dos numeros por telcado y que evalue si son igulaes o si un numero es mayor que el otro.
 	
 	@Test
 	

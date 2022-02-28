@@ -2,28 +2,34 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[El promedio es: 85.0]]>
+      <![CDATA[Ingresa el primer número]]>
     </line>
     <line>
-      <![CDATA[Estás aprobado]]>
+      <![CDATA[Ingresa el segundo número]]>
+    </line>
+    <line>
+      <![CDATA[4.59 Es menor que 4.6]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-02-26T10:07:29 CST" name="Default suite" finished-at="2022-02-26T10:07:29 CST" duration-ms="29">
+  <suite started-at="2022-02-28T15:31:41 CST" name="Default suite" finished-at="2022-02-28T15:31:54 CST" duration-ms="12580">
     <groups>
     </groups>
-    <test started-at="2022-02-26T10:07:29 CST" name="Default test" finished-at="2022-02-26T10:07:29 CST" duration-ms="29">
-      <class name="com.javaBasic.PrimedioCalificaciones">
-        <test-method signature="calcularPromedio()[pri:0, instance:com.javaBasic.PrimedioCalificaciones@6cd28fa7]" started-at="2022-02-26T10:07:29 CST" name="calcularPromedio" finished-at="2022-02-26T10:07:29 CST" duration-ms="7" status="PASS">
+    <test started-at="2022-02-28T15:31:41 CST" name="Default test" finished-at="2022-02-28T15:31:54 CST" duration-ms="12580">
+      <class name="com.javaBasic.Ejercicio1">
+        <test-method signature="compararNum()[pri:0, instance:com.javaBasic.Ejercicio1@6cd28fa7]" started-at="2022-02-28T15:31:41 CST" name="compararNum" finished-at="2022-02-28T15:31:54 CST" duration-ms="12559" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[El promedio es: 85.0]]>
+              <![CDATA[Ingresa el primer número]]>
             </line>
             <line>
-              <![CDATA[Estás aprobado]]>
+              <![CDATA[Ingresa el segundo número]]>
+            </line>
+            <line>
+              <![CDATA[4.59 Es menor que 4.6]]>
             </line>
           </reporter-output>
-        </test-method> <!-- calcularPromedio -->
-      </class> <!-- com.javaBasic.PrimedioCalificaciones -->
+        </test-method> <!-- compararNum -->
+      </class> <!-- com.javaBasic.Ejercicio1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
