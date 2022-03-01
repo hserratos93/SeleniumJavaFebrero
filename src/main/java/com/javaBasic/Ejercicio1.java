@@ -16,10 +16,10 @@ public class Ejercicio1 {
 		
 		Scanner comparacion = new Scanner (System.in);
 		
-		Reporter.log("Ingresa el primer número",true);
+		Reporter.log("Ingresa el primer número: ",true);
 		num1 = comparacion.nextDouble();
 		
-		Reporter.log("Ingresa el segundo número",true);
+		Reporter.log("Ingresa el segundo número: ",true);
 		num2 = comparacion.nextDouble();
 	
 		if (num1>num2) {
