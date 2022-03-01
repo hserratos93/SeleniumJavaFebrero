@@ -42,6 +42,8 @@ public class CompararNumeros {
 	
 	@Test 
 	
+	//ejercicio2
+	//hacer un programa que lea dos numeros por teclado pero se debe repetir hasta que los números sean iguales, utilizar ciclo do while
 	
 	public void compararNumeros () {
 		
@@ -58,7 +60,7 @@ public class CompararNumeros {
 			}while (num1 != num2); 
 		
 		
-		Reporter.log("Los numeros coinciden " +num1 +"y "+num2, true);
+		Reporter.log("Los numeros coinciden " +num1 +" y "+num2, true);
 		
 	}
 	
