@@ -35,7 +35,7 @@ public class CompararNumeros {
 			
 		}else if (promedio >=60 && promedio <=100) {
 			
-			Reporter.log("Felicidades, estàs aprobado co: " +promedio, true);
+			Reporter.log("Felicidades, estàs aprobado con: " +promedio, true);
 		}
 
 	}
