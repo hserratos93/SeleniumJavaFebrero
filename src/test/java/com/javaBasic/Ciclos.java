@@ -12,9 +12,14 @@ public class Ciclos {
 		public void ciclos() {
 			
 			int index = 0;
-			int numero = 10;
+			int numero;
 			
-			for(int i=0; i<=numero; i++) {
+			Scanner valor = new Scanner (System.in);
+			System.out.println("Ingresa un número");
+			numero = valor.nextInt();
+			
+			
+			for(int i=1; i<=numero; i++) {
 				
 				Reporter.log("El valor de nuestro indice es FOR: " + i,true);
 				
